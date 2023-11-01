@@ -1,0 +1,99 @@
+body{
+    margin: 0% 20%;
+    background-color: rgb(236, 235, 235);
+}
+.header-styles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(236, 235, 235);
+}
+.header-nav{
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+}
+.header-nav > a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.nav-back--styles{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+.nav-styles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+}
+.nav-styles>a{
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin: 5px 0px;
+}
+.nav-styles > a:hover{
+    color: green;
+}
+
+/*Main*/
+.main-styles{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-gap: 10px;
+}
+.main-grid--content>img{
+    width: 100%;
+    height: 50%;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.main-grid--content{
+    background-color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.main-grid--text{
+    margin: 20px;
+}
+.main-grid--text > a   {
+    text-decoration: none;
+    color: black;
+}
+.main-grid--text> a :hover{
+    color: green;
+    
+}
+.main-flex--price{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+.paragraf-price{
+    color: green;
+
+}
+.button-info{
+    background-color: white;
+    border-color: green;
+    color: green;
+    border-style: solid;
+    width: 50%;
+    height: 50px;
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: blue;
+}
